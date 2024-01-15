@@ -1,0 +1,23 @@
+{
+    "name": "petrov-egor/witty-name-1",
+    "description": "bookkeeping",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Petrov Egor",
+            "email": "mail@petrov-egor.me"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "require": {
+        "symfony/console": "^7.0",
+        "robmorgan/phinx": "^0.15.5"
+    }
+}
